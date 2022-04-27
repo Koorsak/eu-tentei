@@ -31,17 +31,18 @@ header {
     background-image: url(../images/coffeehouse.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 500px;
 }
 
-header > h1 {
-    color: black;
+header h1 {
+    color: var(--cor5);
     text-align: center;
-    padding-top: 50px;
-    padding: auto;
 }
 
-header > p {
+header p {
     color: black;
     text-align: center;
 }
